@@ -24,7 +24,7 @@ public class WebSocketClient : MonoBehaviour
 
     void Update()
     {
-        // 在需要的情况下发送消息给后台
+        // 鍦ㄩ渶瑕佺殑鎯呭喌涓嬪彂閫佹秷鎭粰鍚庡彴
         if (Input.GetKeyDown(KeyCode.Space))
         {
             ws.Send("Hello from Unity!");
