@@ -1,9 +1,8 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Manager
 {
-    public class GridManager : MonoBehaviour
+    public class ViewManager : MonoBehaviour
     {
         private void Start()
         {
