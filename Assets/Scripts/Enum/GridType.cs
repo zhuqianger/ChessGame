@@ -7,5 +7,6 @@ namespace Enum
         Mountain,
         Water,
         Ice,
+        Forest,
     }
 }
