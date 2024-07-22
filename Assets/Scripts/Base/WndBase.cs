@@ -9,10 +9,13 @@ namespace Base
         {
             
         }
-        
-        
-        
         void InitUI()
+        {
+            
+        }
+
+
+        void SetVisible()
         {
             
         }
