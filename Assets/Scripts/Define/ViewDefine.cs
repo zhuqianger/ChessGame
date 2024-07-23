@@ -1,15 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using MVC.CreateRole;
+using MVC.Login;
 using Unity.Collections;
+using UnityEngine;
 
 namespace Define
 {
-    public class ViewDefine
+    public static class ViewDefine
     {
         public static Dictionary<string, string> viewMap = new Dictionary<string, string>()
         {
-            {"WndLogin","Login/WndLogin"},
-            {"WndCreateRole","CreateRole/WndCreateRole"},
-            {"WndMainUI","MainUI/WndMainUI"}
+            {"WndLogin","MVC.Login.WndLogin"},
         };
     }
 }
