@@ -22,6 +22,7 @@ namespace Manager
             DontDestroyOnLoad(this.gameObject);
             instance = this;
             instance.GetView("WndLogin");
+            instance.GetView("WndCreateRole");
         }
         
         public MonoBehaviour GetView(string viewName)

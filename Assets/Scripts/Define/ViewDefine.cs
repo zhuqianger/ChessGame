@@ -12,6 +12,8 @@ namespace Define
         public static Dictionary<string, string> viewMap = new Dictionary<string, string>()
         {
             {"WndLogin","MVC.Login.WndLogin"},
+            {"WndCreateRole","MVC.CreateRole.WndCreateRole"},
+            {"WndMainUI","MVC.MainUI.WndMainUI"}
         };
     }
 }
